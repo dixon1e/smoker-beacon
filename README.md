@@ -44,8 +44,6 @@ System Installation Requirements
 
 Python Installation Requirements
 * pillow
-* pyserial
-* python-serial
 * transitions
 * virtualenv development environment
 
@@ -112,4 +110,4 @@ Python Installation Requirements
 
 ## State Machine Description
 
-## Bluetooth (future) 
+## Bluetooth
