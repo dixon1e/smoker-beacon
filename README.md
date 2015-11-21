@@ -36,9 +36,7 @@ python sb.py
 * The order: attach thermocouple first, then turn on CPU unit
 * Calibrate the thermocouple when setting up, 
 
-##TODO
-
-##Objective: Thermocouple readings through beacon to app
+## Objective: Thermocouple readings through beacon to app
 
 System Installation Requirements
 * ZeroMQ
@@ -51,6 +49,42 @@ Python Installation Requirements
 * transitions
 * virtualenv development environment
 
+## Block Architecture
+```
+
+									   Ampilfier
+									   Assembly
+		+--------------+            +---------------+
+		|              |            |               |
+		|              |            |               |
+		|              +------------>               |
+		|              |            |               |
+		|              |            |               |
+		+--------------+            +-------+-------+
+											|
+		  Thermocouple                      |
+											|                        BLE (Beacon)
+									+-------v-------+            +---------------+
+									|               |            |               |
+									|               |            |               |
+									|               +------------>               |
+									|               |            |               |
+									|               |            |               |
+									+---------------+            +-------+-------+
+										  PCDuino                        |
+																		 |
+																		 |
+																		 |
+																 +-------v-------+
+																 |               |
+																 |               |
+																 |               |
+																 |               |
+																 +---------------+
+																  Android App
+																  Using Apache Cordova
+
+```
 
 ## Platform preparation
 1. Generate a key using 'ssh-keygen -t rsa' (take the defaults on prompts)
