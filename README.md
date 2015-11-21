@@ -1,13 +1,17 @@
 # Smoker Beacon
 
-Take the output from a thermocouple, input through an SBC and transmit via Wi-Fi to a collector. 
-Send temperature telemetry for a smoker.
+Take the output from a thermocouple, input through a PCDuino and transmit via BLE Beacon to a Cordova Android App.  
 
 # App
 
-Receives output showing the temperature from one or more thermocouples  
-Configurable mix/max temperature alarm  
-(not included in this repo)
+* Receives output showing the temperature from one or more thermocouples  
+* Configurable min/max temperature alarm  
+* Uses Apache Cordova to select and receive Beacon
+* Beacon assumed to have two fields:
+1. Major: ID of Thermocouple
+2. Minor: Temperature
+
+N.B. Not included in this repo
 
 Items needed:
 * pcDuino3 http://www.linksprite.com/?page_id=812
