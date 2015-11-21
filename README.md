@@ -80,13 +80,6 @@ Python Installation Requirements
 1. Install the Python libraries
 
         pip install -r requirements.txt
-        
-1. Test run scripts for thermocouple reader (sb.py):
-
-        cd ~/smoker-beacon
-        . ./venv/bin/activate (if you have not already done this)
-        python sb.py
-        python dispatcher.py
 
 1. Add a new job to crontab for root user
 
