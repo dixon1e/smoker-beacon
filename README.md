@@ -60,8 +60,7 @@ Python Installation Requirements
 
         sudo apt-get update && sudo apt-get upgrade -y
         sudo apt-get install -y python-pip python-virtualenv python-dev curl 
-        sudo apt-get install -y python-bluez python-serial 
-        sudo apt-get install -y ipython unclutter
+        sudo apt-get install -y python-bluez
 
 1. Set the correct Time Zone
 
