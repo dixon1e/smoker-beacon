@@ -87,8 +87,7 @@ Python Installation Requirements
 ```
 
 ## Platform preparation
-1. Generate a key using 'ssh-keygen -t rsa' (take the defaults on prompts)
-1. [Upload a Deploy Key](https://github.com/dixon1e/smoker-beacon/settings/keys) and clone [this repo](https://github.com/dixon1e/smoker-beacon) using the id_rsa.pub key
+1. Clone [this repo](https://github.com/dixon1e/smoker-beacon)
 
         git clone git@github.com:dixon1e/smoker-beacon.git
 
