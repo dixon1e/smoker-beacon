@@ -22,7 +22,7 @@ TL;DR - To run the system by hand, execute dispatcher and thermocouple scripts.
 cd smoker-beacon
 source venv/bin/activate
 python dispatcher.py
-python sb.py
+python sensor.py
 ```
 ##Field Guide
 * Hook up a USB keyboard, preferably with built-in mouse
@@ -31,7 +31,7 @@ python sb.py
 * Hit ALT-TAB to switch between Terminal and Application
 * Logs are located in /var/log/smoker-beacon
 * Startup log located in /home/linaro/logs/cronlog
-* Key programs are "sb.py" and "dispatcher.py"
+* Key programs are "sensor.py" and "dispatcher.py"
 * Programs are located in /home/linaro/smoker-beacon
 * The order: attach thermocouple first, then turn on CPU unit
 * Calibrate the thermocouple when setting up, 
@@ -136,7 +136,7 @@ Python Installation Requirements
 				Click Background Color and change to "White", e.g. 255, 255, 255 in the R,G,B fields
         Click "Close"
 
-1. Check dispatcher.py and sb.py to make sure Logging level is not more than "WARNING"
+1. Check dispatcher.py and sensor.py to make sure Logging level is not more than "WARNING"
 
 ## State Machine Description
 
