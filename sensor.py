@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 #
 # Code harvested 00:35 MDT 24 NOV 2015 and derived from these sources:
+# https://github.com/sparkfun/SparkFun_MAX31855K_Thermocouple_Breakout_Arduino_Library/blob/master/examples/SparkFun_MAX31855K_Thermocouple_Breakout/SparkFun_MAX31855K_Thermocouple_Breakout.ino
+# https://learn.sparkfun.com/tutorials/programming-the-pcduinoo# http://learn.linksprite.com/pcduino/quick-start/explaination-of-pcduino3-headers/
+# http://tronixstuff.com/2014/01/29/tutorial-pcduino-gpio-arduino-ide/
 #
 # -*- coding: utf-8 -*-
 
