@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#
+# Code harvested 00:35 MDT 24 NOV 2015 and derived from these sources:
+# http://www.wadewegner.com/2014/05/create-an-ibeacon-transmitter-with-the-raspberry-pi/
+# https://github.com/tyarkoni/transitions
 
 """
-* (dispatcher.py) Has one app that:
+* (dispatcher.py) Function:
     * Reads sensor
     * Posts using BLE Beacon
 """
